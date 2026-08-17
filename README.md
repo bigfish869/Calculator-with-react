@@ -1,4 +1,10 @@
-# React + TypeScript + Vite
+    import { defineConfig } from 'vite'
+    import react from '@vitejs/plugin-react'
+
+    export default defineConfig({
+      plugins: [react()],
+      base: "/your-repo-name/" // CHANGE THIS to your repo name
+    })# React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
